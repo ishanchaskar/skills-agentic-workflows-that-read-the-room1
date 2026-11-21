@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  copilot-requests: write
+  # copilot-requests: write
 strict: true
 engine:
   id: copilot
