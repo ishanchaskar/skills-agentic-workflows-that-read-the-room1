@@ -15,6 +15,7 @@ engine:
 network:
   allowed:
     - github.blog
+    - awesome-copilot.github.com
     - github.com
 tools:
   edit:
@@ -35,8 +36,9 @@ Read `notes/mona-notes.md` and the current `site/content/github-info.md`. Then u
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Update `site/content/github-info.md` only with verified, useful information from these official sources that helps developers learn GitHub faster. Keep summaries short and practical, preserve the page's editorial angle, and include a source link whenever information comes from the Blog or Changelog. Do not invent details or repeat information already covered.
+Update `site/content/github-info.md` only with verified, useful information from these sources that helps developers learn GitHub faster. Keep summaries short and practical, preserve the page's editorial angle, and include a source link for each update. Do not invent details or repeat information already covered.
 
 If there is no worthwhile new information, either source cannot be fetched, or the evidence is insufficient, make no changes and call `noop` with a brief reason.
 
